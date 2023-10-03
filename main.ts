@@ -8,18 +8,18 @@
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
-// variable 
+// variable
 let cookie: number
 cookie = 0
 
 // input
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed (Button.A, function() {
   cookie = (cookie + 1)
   basic.showNumber(cookie)
 })
 
 // output
-input.onButtonPressed(Button.B, function() {
+input.onButtonPressed (Button.B, function() {
   cookie = 0
   basic.showNumber(cookie)
 })
